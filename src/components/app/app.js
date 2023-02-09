@@ -2,7 +2,8 @@ import AppInfo from "../app-info/app-info";
 import SearchPanel from "../search-panal/search-panel";
 import "./app.css";
 import AppFilter from "../app-filter/app-filter";
-import EmployeesListItem from "../employees-list-item/employees-list-item";
+import EmployeesList from "../employees-list/employees list";
+import EmployeesAddForm from "../employees-add-form/employees-add-form";
 function App() {
   return (
     <div className="app">
@@ -10,7 +11,8 @@ function App() {
       <div className="search-panel">
         <SearchPanel />
         <AppFilter />
-        <EmployeesListItem />
+        <EmployeesList />
+        <EmployeesAddForm />
       </div>
     </div>
   );
